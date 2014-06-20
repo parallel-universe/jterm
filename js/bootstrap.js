@@ -16,6 +16,6 @@ require.config({
 	}
 });
 
-define(['controller'], function (controller) {
-	// Entry point
+define(['jterm'], function (jterm) {
+	jterm.initialize('#main-terminal');
 });
