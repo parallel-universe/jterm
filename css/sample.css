@@ -1,0 +1,38 @@
+body {
+	background: #34343D;
+	color: #CC7272;
+}
+
+.fill-terminal, .terminal-wrapper {
+	height: 100%;
+}
+
+.jumbotron {
+	text-align: left;
+	background: #444369;
+}
+
+.site-title {
+	color: #F3F3F3;
+}
+
+.container .nav-pills .active a {
+	background: #2D0249;
+}
+
+.container .nav-pills a:hover {
+	background: #5B2370;
+	color: #ffffff;
+}
+
+.container .nav-pills .active a:hover {
+	background: #6B6B6B;
+}
+
+.container .breadcrumb.terminal-breadcrumb {
+	background: inherit;
+}
+
+.marketing h4 {
+	color: #E4E4E4;
+}
