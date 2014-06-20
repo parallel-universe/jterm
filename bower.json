@@ -1,0 +1,24 @@
+{
+  "name": "jterm",
+  "version": "0.0.1",
+  "homepage": "https://github.com/parallel-universe/jterm",
+  "authors": [
+    "typeof.developer@gmail.com"
+  ],
+  "description": "javascript terminal interface",
+  "moduleType": [
+    "amd"
+  ],
+  "keywords": [
+    "terminal"
+  ],
+  "license": "MIT",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ]
+}
