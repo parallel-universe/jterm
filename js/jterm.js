@@ -5,10 +5,17 @@ define([
 	], function (terminal, interpreter, config) {
 	var terminal = null,
 		jterm = {
-		initialize: function (selector) {
-			terminal = $(selector).terminal(interpreter.parse, config);
-		}
-	};
+			term: null,
+			initialize: function (selector) {
+				this.term = $(selector).terminal(interpreter.parse, config.jqueryterminal);
+			},
+			exitCurrentApp: function () {
+				this.term.setInterpreter(interpreter);
+				this.term.set_prompt(config.jqueryterminal.prompt)
+				this.term.clear();
+				this.term.greetings();
+			}
+		};
 
 	return jterm;
 });
